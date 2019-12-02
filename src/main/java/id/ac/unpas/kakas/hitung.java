@@ -1,15 +1,28 @@
 package id.ac.unpas.kakas;
 
-public class hitung {
+import java.util.Scanner;
 
-	public static int tambah(int n1, int n2)
+public class hitung {
+	
+	
+	public static int tambah()
 	    {
+			Scanner sc = new Scanner(System.in);
+
+			int n1 =  sc.nextInt();
+			int n2 =  sc.nextInt();
+			
 	        int hasil = n1 + n2;
 	        return hasil;
 	    }
 	  
-	public static int kurang(int n1, int n2)
+	public static int kurang()
 	    {
+			Scanner sc = new Scanner(System.in);
+	
+			int n1 =  sc.nextInt();
+			int n2 =  sc.nextInt();
+			
 	        int hasil = n1-n2;
 	        return hasil;
 	    }
