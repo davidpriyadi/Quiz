@@ -18,9 +18,21 @@ public class main {
 		hitung hi = new hitung();
 		switch (menu) {
 		case 1:
-				total = hi.tambah(n1, n2);
-				System.out.println(total);
-			break;
+			total = hi.tambah(n1, n2);
+			System.out.println(total);
+		break;
+		case 2:
+			total = hi.kurang(n1, n2);
+			System.out.println(total);
+		break;
+		case 3:
+			total = hi.kali(n1, n2);
+			System.out.println(total);
+		break;
+		case 4:
+			total = hi.bagi(n1, n2);
+			System.out.println(total);
+		break;
 
 		default:
 			break;
